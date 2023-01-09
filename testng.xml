@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.nagarro.SeleniumJava.tests.Test01_HomePage" />
+			<class name="com.nagarro.SeleniumJava.tests.Test02_RegisterPage" />
+			<class name="com.nagarro.SeleniumJava.tests.Test03_ProductPage" />
+			<class name="com.nagarro.SeleniumJava.tests.Test04_FooterPage" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

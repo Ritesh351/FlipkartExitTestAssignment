@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-09T18:53:48 IST" name="Default suite" finished-at="2023-01-09T18:59:23 IST" duration-ms="334524">
+    <groups>
+      <group name="smoke">
+        <method signature="Test01_HomePage.ClickBackSlide()[pri:6, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" name="ClickBackSlide" class="com.nagarro.SeleniumJava.tests.Test01_HomePage"/>
+        <method signature="Test01_HomePage.ClickNextSlide()[pri:5, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" name="ClickNextSlide" class="com.nagarro.SeleniumJava.tests.Test01_HomePage"/>
+        <method signature="Test01_HomePage.verifyBecomeASellerTabTest()[pri:3, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" name="verifyBecomeASellerTabTest" class="com.nagarro.SeleniumJava.tests.Test01_HomePage"/>
+        <method signature="Test01_HomePage.verifyFlipkartLogoTest()[pri:1, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" name="verifyFlipkartLogoTest" class="com.nagarro.SeleniumJava.tests.Test01_HomePage"/>
+        <method signature="Test01_HomePage.verifyHomePageTitleTest()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" name="verifyHomePageTitleTest" class="com.nagarro.SeleniumJava.tests.Test01_HomePage"/>
+        <method signature="Test01_HomePage.verifyLoginTabTest()[pri:2, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" name="verifyLoginTabTest" class="com.nagarro.SeleniumJava.tests.Test01_HomePage"/>
+        <method signature="Test01_HomePage.verifySearchProductTest()[pri:4, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" name="verifySearchProductTest" class="com.nagarro.SeleniumJava.tests.Test01_HomePage"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Test01_HomePage.ClickBackSlide()[pri:6, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" name="ClickBackSlide" class="com.nagarro.SeleniumJava.tests.Test01_HomePage"/>
+        <method signature="Test01_HomePage.verifyBecomeASellerTabTest()[pri:3, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" name="verifyBecomeASellerTabTest" class="com.nagarro.SeleniumJava.tests.Test01_HomePage"/>
+        <method signature="Test01_HomePage.verifyFlipkartLogoTest()[pri:1, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" name="verifyFlipkartLogoTest" class="com.nagarro.SeleniumJava.tests.Test01_HomePage"/>
+        <method signature="Test01_HomePage.verifyHomePageTitleTest()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" name="verifyHomePageTitleTest" class="com.nagarro.SeleniumJava.tests.Test01_HomePage"/>
+        <method signature="Test01_HomePage.verifySearchProductTest()[pri:4, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" name="verifySearchProductTest" class="com.nagarro.SeleniumJava.tests.Test01_HomePage"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-01-09T18:53:48 IST" name="Default test" finished-at="2023-01-09T18:59:23 IST" duration-ms="334524">
+      <class name="com.nagarro.SeleniumJava.tests.Test01_HomePage">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:53:48 IST" name="setExtent" finished-at="2023-01-09T18:53:48 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:53:48 IST" name="setup" finished-at="2023-01-09T18:54:37 IST" duration-ms="49152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageTitleTest()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:54:37 IST" name="verifyHomePageTitleTest" finished-at="2023-01-09T18:54:38 IST" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:54:38 IST" name="attachScreenshot" finished-at="2023-01-09T18:54:38 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageTitleTest status=SUCCESS method=Test01_HomePage.verifyHomePageTitleTest()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:54:38 IST" name="tearDown" finished-at="2023-01-09T18:54:38 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:54:38 IST" name="setup" finished-at="2023-01-09T18:55:29 IST" duration-ms="51087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFlipkartLogoTest()[pri:1, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:55:29 IST" name="verifyFlipkartLogoTest" finished-at="2023-01-09T18:55:29 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlipkartLogoTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:55:29 IST" name="attachScreenshot" finished-at="2023-01-09T18:55:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFlipkartLogoTest status=SUCCESS method=Test01_HomePage.verifyFlipkartLogoTest()[pri:1, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:55:29 IST" name="tearDown" finished-at="2023-01-09T18:55:29 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:55:29 IST" name="setup" finished-at="2023-01-09T18:56:14 IST" duration-ms="44273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginTabTest()[pri:2, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:56:14 IST" name="verifyLoginTabTest" finished-at="2023-01-09T18:56:14 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTabTest -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:56:14 IST" name="attachScreenshot" finished-at="2023-01-09T18:56:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginTabTest status=SUCCESS method=Test01_HomePage.verifyLoginTabTest()[pri:2, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:56:14 IST" name="tearDown" finished-at="2023-01-09T18:56:14 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:56:14 IST" name="setup" finished-at="2023-01-09T18:56:59 IST" duration-ms="44716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBecomeASellerTabTest()[pri:3, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:56:59 IST" name="verifyBecomeASellerTabTest" finished-at="2023-01-09T18:56:59 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBecomeASellerTabTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:56:59 IST" name="tearDown" finished-at="2023-01-09T18:56:59 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:56:59 IST" name="attachScreenshot" finished-at="2023-01-09T18:56:59 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyBecomeASellerTabTest status=SUCCESS method=Test01_HomePage.verifyBecomeASellerTabTest()[pri:3, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:56:59 IST" name="setup" finished-at="2023-01-09T18:57:36 IST" duration-ms="37470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearchProductTest()[pri:4, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:57:36 IST" name="verifySearchProductTest" finished-at="2023-01-09T18:57:37 IST" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchProductTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:57:37 IST" name="tearDown" finished-at="2023-01-09T18:57:37 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:57:37 IST" name="attachScreenshot" finished-at="2023-01-09T18:57:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySearchProductTest status=SUCCESS method=Test01_HomePage.verifySearchProductTest()[pri:4, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:57:37 IST" name="setup" finished-at="2023-01-09T18:58:23 IST" duration-ms="45553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickNextSlide()[pri:5, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:58:23 IST" name="ClickNextSlide" finished-at="2023-01-09T18:58:23 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickNextSlide -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:58:23 IST" name="attachScreenshot" finished-at="2023-01-09T18:58:23 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickNextSlide status=SUCCESS method=Test01_HomePage.ClickNextSlide()[pri:5, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:58:23 IST" name="tearDown" finished-at="2023-01-09T18:58:23 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:58:23 IST" name="setup" finished-at="2023-01-09T18:59:23 IST" duration-ms="59494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ClickBackSlide()[pri:6, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:59:23 IST" name="ClickBackSlide" finished-at="2023-01-09T18:59:23 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skiped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skiped
+at com.nagarro.SeleniumJava.tests.Test01_HomePage.ClickBackSlide(Test01_HomePage.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickBackSlide -->
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:59:23 IST" name="attachScreenshot" finished-at="2023-01-09T18:59:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickBackSlide status=SKIP method=Test01_HomePage.ClickBackSlide()[pri:6, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attachScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:59:23 IST" name="tearDown" finished-at="2023-01-09T18:59:23 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.nagarro.SeleniumJava.tests.Test01_HomePage@5965d37]" started-at="2023-01-09T18:59:23 IST" name="endReport" finished-at="2023-01-09T18:59:23 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.nagarro.SeleniumJava.tests.Test01_HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

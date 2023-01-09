@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [javaSeleniumExitTest by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-smoke(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.nagarro.SeleniumJava.tests.Test01_HomePage">
+        <methods>
+          <include name="ClickNextSlide"/>
+          <include name="verifyLoginTabTest"/>
+          <include name="verifyFlipkartLogoTest"/>
+          <include name="verifyHomePageTitleTest"/>
+        </methods>
+      </class> <!-- com.nagarro.SeleniumJava.tests.Test01_HomePage -->
+    </classes>
+  </test> <!-- GRP-smoke(failed) -->
+</suite> <!-- Failed suite [javaSeleniumExitTest by groups] -->
